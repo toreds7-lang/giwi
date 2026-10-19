@@ -1,0 +1,21 @@
+{
+  "name": "giwi-bridge",
+  "version": "0.2.0",
+  "description": "MCP server that lets a coding agent drive your real browser through the GiwiBridge extension.",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "giwi-bridge": "server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "ws": "^8.22.0",
+    "zod": "^4.6.7"
+  }
+}
